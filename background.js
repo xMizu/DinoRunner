@@ -47,7 +47,7 @@ class Background {
         name: "cloud",
         image: "pictures/cloud2.png",
         size: 200,
-        speed: 0.25,
+        speed: 0.4,
         y: 0
       },
       { name: "tree", image: "pictures/tree.png", size: 100, speed: 1.5, y: 0 },
@@ -55,7 +55,7 @@ class Background {
         name: "mountain",
         image: "pictures/mountain.png",
         size: 90,
-        speed: 0.3,
+        speed: 0.4,
         y: 0
       }
     ];

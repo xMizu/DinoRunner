@@ -19,15 +19,15 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   //background
   // constructor           (width, height, source, startingY, speed, startingX)
-  new Background(200, 200, "pictures/cloud5.png", -70, 0.5, 426);
-  new Background(200, 200, "pictures/cloud5.png", -70, 0.5, 126);
-  new Background(200, 200, "pictures/cloud2.png", -15, 0.6, 500);
-  new Background(100, 100, "pictures/tree.png", 119, 1, 360);
-  new Background(100, 100, "pictures/mountain.png", 130, 0.3, 4);
-  new Background(90, 90, "pictures/mountain.png", 140, 0.3, 400);
+  // new Background(200, 200, "pictures/cloud5.png", -70, 0.5, 426);
+  // new Background(200, 200, "pictures/cloud5.png", -70, 0.5, 126);
+  // new Background(200, 200, "pictures/cloud2.png", -15, 0.6, 500);
+  // new Background(100, 100, "pictures/tree.png", 119, 1, 360);
+  // new Background(100, 100, "pictures/mountain.png", 130, 0.3, 4);
+  // new Background(90, 90, "pictures/mountain.png", 140, 0.3, 400);
 
   // special
-  let easterEgg = false;
+  // let easterEgg = false;
 
   //Player/Dino Class
   let player = new Player(
@@ -179,7 +179,7 @@ document.addEventListener("DOMContentLoaded", () => {
           bg.image,
           bg.y,
           bg.speed,
-          last + bg.size
+          last + bg.size / 1.5
         );
       }
     } else {
@@ -187,7 +187,7 @@ document.addEventListener("DOMContentLoaded", () => {
       new Background(200, 200, "pictures/cloud5.png", -70, 0.75, 126);
       new Background(200, 200, "pictures/cloud2.png", -15, 0.25, 500);
       new Background(100, 100, "pictures/tree.png", 119, 1.5, 360);
-      new Background(100, 100, "pictures/mountain.png", 130, 0.3, 400);
+      new Background(100, 100, "pictures/mountain.png", 130, 0.3, 500);
       new Background(90, 90, "pictures/mountain.png", 140, 0.3, 400);
     }
     Background.all.forEach((bg, index) => {

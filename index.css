@@ -83,6 +83,10 @@ canvas {
   font: black;
 }
 
+#high-score {
+  animation: colorize 1s linear infinite alternate;
+}
+
 .modal-content button:hover {
   animation: pop 0.5s linear infinite alternate;
 }
@@ -114,7 +118,7 @@ canvas {
   width: 100%;
   margin: auto;
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
   margin-top: 8px;
   margin-bottom: 8px;
   font-size: 24px;

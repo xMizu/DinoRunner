@@ -18,8 +18,8 @@ class Player {
 
   draw(box) {
     box.drawImage(this.image, this.x, this.y, this.width, this.height);
-    box.strokeRect(this.x + 10, this.y + 5, this.width - 15, this.height - 20);
-    box.strokeRect(this.x + 6, this.y + 16, this.width - 17, this.height - 23);
+    // box.strokeRect(this.x + 10, this.y + 5, this.width - 15, this.height - 20);
+    // box.strokeRect(this.x + 6, this.y + 16, this.width - 17, this.height - 23);
   }
 
   hitbox() {

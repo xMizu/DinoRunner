@@ -21,7 +21,7 @@ function highScoreReached(i) {
 }
 
 function addNewUserToScore(name, i) {
-  fetch("http://localhost:3000/players", {
+  fetch("https://vast-meadow-37921.herokuapp.com/players", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

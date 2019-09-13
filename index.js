@@ -231,7 +231,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   const highscoreSection = document.getElementById("high-score-table");
-  fetch("http://localhost:3000/players")
+  fetch("https://vast-meadow-37921.herokuapp.com/players")
     .then(resp => resp.json())
     .then(resp => {
       highscore = resp;
